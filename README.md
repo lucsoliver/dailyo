@@ -1,4 +1,4 @@
-# Dailyo
+<h1 align="center">📝 Dailyo 🍅</h1>
 <br>
 
 <br>
@@ -6,7 +6,7 @@
 | <img src="https://github.com/lucsoliver/dailyo/blob/469d3c03ea0ed8c02de6ab5dc2d48f8e939bfa4b/src/assets/457189423094.png" width="420" alt="Screenshot do TodoList" /> | <img src="https://github.com/lucsoliver/dailyo/blob/469d3c03ea0ed8c02de6ab5dc2d48f8e939bfa4b/src/assets/435439821687.png" width="420" alt="Screenshot do Pomodoro Timer" /> |
 | --- | --- |
 
-Detalhes: Dailyo é um app com Lista de afazeres podendo Criar, Editar, Atualizar e Deletar. E o timer Pomodoro possui duas funcionalidades: pausa curta e longa.<br>
+Dailyo é um app com Lista de afazeres podendo Criar, Editar, Atualizar e Deletar. E o timer Pomodoro possui duas funcionalidades: pausa curta e longa.<br>
 <br>
 Tecnologias utilizadas: React Js, Styled Components e Vite<br>
 <br>
