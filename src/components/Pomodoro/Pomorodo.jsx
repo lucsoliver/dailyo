@@ -38,7 +38,7 @@ const Timer = styled.p`
 `;
 
 const TimerButtons = styled.button`
-  color: #91BAC3;
+  color: #5892F8;
   border: none;
   box-shadow: 0px 4px 8px 0px rgba(119, 201, 255, 0.5);
   padding: 8px 20px;
@@ -47,6 +47,7 @@ const TimerButtons = styled.button`
   margin: 0 0.6rem;
   background-color: #f5f7ff;
   font-family: "Jua", sans-serif;
+  cursor: pointer;
 `;
 
 const Pomodoro = () => {

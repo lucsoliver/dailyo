@@ -6,7 +6,7 @@ const Title = styled.h1`
   padding: .8rem 0;
   font-family: Jua;
   letter-spacing: 0.2rem;
-  color: #91BAC3;
+  color: #5892F8;
 `;
 
 const Titles = ({ ...props }) => {

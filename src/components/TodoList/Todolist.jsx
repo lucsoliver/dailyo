@@ -69,7 +69,7 @@ const DailyTitle = styled.h1`
   padding: 1rem 0;
   font-family: Jua;
   letter-spacing: 0.2rem;
-  color: #91BAC3;
+  color: #5892F8;
 `;
 
 const TaskButtons = styled.button`
@@ -90,11 +90,15 @@ const EditButton = styled.button`
 
 const TaskName = styled.div`
   width: 11rem;
-  color: #91BAC3;
+  color: #5892F8;
   font-size: 0.875rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
 `;
 
 const TaskDate = styled.div`
@@ -238,7 +242,7 @@ const Todolist = () => {
                       onChange={(e) => setEditingText(e.target.value)}
                     />
                   ) : (
-                    <TaskName>{todo.text}</TaskName>
+                    <TaskName title={todo.text}>{todo.text}</TaskName>
                   )}
                 </Center>
               </Center>
